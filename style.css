@@ -1,0 +1,23 @@
+#home {
+    background-color: red;
+}
+#profile {
+    background-color: green;
+}
+
+@media (min-width: 768px) { 
+
+    #myTabContent {
+        display: flex
+    }
+    #myTab {
+        display: none;
+    }
+
+    #home {
+        width: 50%;
+    }
+    #profile {
+        width:50%;
+    }
+}
